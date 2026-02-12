@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Page Chat</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="chat-header">Page Chat</div>
+
+    <!-- FIX: use chatBody as output -->
+    <div class="chat-body" id="chatBody">
+      <div class="message bot-message">Ask query related to this page</div>
+    </div>
+
+    <div class="chat-input">
+      <textarea
+        id="query"
+        placeholder="Type your question..."
+      ></textarea>
+      <button id="ask">Send</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
