@@ -12,7 +12,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         return;
       }
 
-      fetch("http://3.80.154.24:5000/chat", {
+      fetch("http://51.21.218.191:5000/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
